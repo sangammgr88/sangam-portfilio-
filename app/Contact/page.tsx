@@ -35,7 +35,7 @@ const Contact = () => {
       emailjs
         .sendForm("service_n1ept4m", "template_pctp3x7", form.current, "vBN1eIVDxf_tHK1K0")
         .then(
-          (response) => {
+          () => {
             console.log("SUCCESS!");
             setFormData({
               firstName: "",
